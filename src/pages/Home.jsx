@@ -28,8 +28,8 @@ export default function Home() {
             src={profile}
             alt="Karna Apurupa"
             className="
-              w-72 md:w-[28rem]
-              h-72 md:h-[28rem]
+              w-50 md:w-[20rem]
+              h-50 md:h-[20rem]
               rounded-3xl
               object-cover
               border-4 border-purple-500
