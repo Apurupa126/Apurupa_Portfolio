@@ -51,14 +51,14 @@ export default function Home() {
 
           <p className="text-lg text-gray-300 mb-2">Hello, I'm</p>
 
-          <h1 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
+          <h1 className="text-4xl md:text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
             Karna Apurupa
           </h1>
 
           <div className="mt-4">
             <p className="text-gray-300 mb-2">AI & Machine Learning Undergraduate</p>
             <div className="flex items-center gap-4">
-              <span className="text-gray-400">Role:</span>
+              <span className="text-gray-200">Role:</span>
               <div className="flex items-center">
                 <TypingAnimation words={["AI & Machine Learning Undergraduate","Python Developer","Full Stack Developer","Machine Learning Enthusiast","Cloud Learner"]} />
               </div>
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
 
           {/* SOCIAL ICONS */}
-          <div className="flex gap-4 mt-6 text-2xl items-center">
+          <div className="flex gap-4 mt-4 text-1xl items-center">
             <a href="mailto:apurupa126@gmail.com" className="text-gray-300 hover:text-white transition">Email</a>
             <a href="tel:+917993251535" className="text-gray-300 hover:text-white transition">+91 79932 51535</a>
             <a href="https://github.com/apurupa126" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-white transition">GitHub</a>
